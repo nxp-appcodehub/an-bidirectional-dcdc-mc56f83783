@@ -1,0 +1,26 @@
+<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/alp.xsd" type="app_note" format="projectfile" versionSchema="1.0.0" name="bidirectional-dcdc-mc56f83783" uuid="03811590-ddc6-4b87-a7be-de234629ab60">
+    <display_title>
+        AN14333: Bidirectional Resonant DC-DC Converter Design using MC56F83783
+    </display_title>
+    <overview>
+        <![CDATA[This is a bidirectional CLLC resonant converter reference design using MC56F83783 DSC.]]>
+    </overview>
+    <toolchains>
+        <toolchain name="codewarrior"></toolchain>
+    </toolchains>
+    <families>
+        <family name="dsc"></family>
+    </families>
+    <nxp_compatible_hw>
+        <custom_hw></custom_hw>
+    </nxp_compatible_hw>
+    <peripherals>
+        <peripheral name="adc"></peripheral>
+        <peripheral name="gpio"></peripheral>
+        <peripheral name="pwm"></peripheral>
+        <peripheral name="timer"></peripheral>
+    </peripherals>
+    <categories>
+        <category name="power_conversion"></category>
+    </categories>
+</data:item>
